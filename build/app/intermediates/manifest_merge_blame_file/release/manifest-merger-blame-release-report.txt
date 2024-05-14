@@ -1,0 +1,321 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.fkweb.naoenchemeuzap"
+4    android:versionCode="6"
+5    android:versionName="4.0.2" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->/Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/android/app/src/main/AndroidManifest.xml:4:5-66
+11-->/Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/android/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/android/app/src/main/AndroidManifest.xml:4:5-66
+12-->/Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-config:21.6.0] /Users/karla.franca/.gradle/caches/transforms-3/35949dfbac352b4d3da35410a12b8c1f/transformed/jetified-firebase-config-21.6.0/AndroidManifest.xml:22:5-79
+13-->[com.google.firebase:firebase-config:21.6.0] /Users/karla.franca/.gradle/caches/transforms-3/35949dfbac352b4d3da35410a12b8c1f/transformed/jetified-firebase-config-21.6.0/AndroidManifest.xml:22:22-76
+14
+15    <permission
+15-->[androidx.core:core:1.10.1] /Users/karla.franca/.gradle/caches/transforms-3/79d0a380ebf5da1905ef93602d4944ef/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+16        android:name="com.fkweb.naoenchemeuzap.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+16-->[androidx.core:core:1.10.1] /Users/karla.franca/.gradle/caches/transforms-3/79d0a380ebf5da1905ef93602d4944ef/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+17        android:protectionLevel="signature" />
+17-->[androidx.core:core:1.10.1] /Users/karla.franca/.gradle/caches/transforms-3/79d0a380ebf5da1905ef93602d4944ef/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+18
+19    <uses-permission android:name="com.fkweb.naoenchemeuzap.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+19-->[androidx.core:core:1.10.1] /Users/karla.franca/.gradle/caches/transforms-3/79d0a380ebf5da1905ef93602d4944ef/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+19-->[androidx.core:core:1.10.1] /Users/karla.franca/.gradle/caches/transforms-3/79d0a380ebf5da1905ef93602d4944ef/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+20
+21    <application
+21-->/Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/android/app/src/main/AndroidManifest.xml:7:5-61:19
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.10.1] /Users/karla.franca/.gradle/caches/transforms-3/79d0a380ebf5da1905ef93602d4944ef/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+23        android:icon="@mipmap/ic_launcher"
+23-->/Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/android/app/src/main/AndroidManifest.xml:10:9-43
+24        android:label="NaoEncheMeuZap"
+24-->/Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/android/app/src/main/AndroidManifest.xml:8:9-39
+25        android:requestLegacyExternalStorage="true" >
+25-->/Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/android/app/src/main/AndroidManifest.xml:11:9-52
+26        <activity
+26-->/Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/android/app/src/main/AndroidManifest.xml:13:9-51:20
+27            android:name="com.fkweb.naoenchemeuzap.MainActivity"
+27-->/Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/android/app/src/main/AndroidManifest.xml:14:13-41
+28            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+28-->/Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/android/app/src/main/AndroidManifest.xml:18:13-163
+29            android:exported="true"
+29-->/Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/android/app/src/main/AndroidManifest.xml:15:13-36
+30            android:hardwareAccelerated="true"
+30-->/Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/android/app/src/main/AndroidManifest.xml:19:13-47
+31            android:launchMode="singleTop"
+31-->/Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/android/app/src/main/AndroidManifest.xml:16:13-43
+32            android:theme="@style/LaunchTheme"
+32-->/Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/android/app/src/main/AndroidManifest.xml:17:13-47
+33            android:windowSoftInputMode="adjustResize" >
+33-->/Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/android/app/src/main/AndroidManifest.xml:20:13-55
+34
+35            <!--
+36                 Specifies an Android theme to apply to this Activity as soon as
+37                 the Android process has started. This theme is visible to the user
+38                 while the Flutter UI initializes. After that, this theme continues
+39                 to determine the Window background behind the Flutter UI.
+40            -->
+41            <meta-data
+41-->/Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/android/app/src/main/AndroidManifest.xml:25:13-28:17
+42                android:name="io.flutter.embedding.android.NormalTheme"
+42-->/Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/android/app/src/main/AndroidManifest.xml:26:15-70
+43                android:resource="@style/NormalTheme" />
+43-->/Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/android/app/src/main/AndroidManifest.xml:27:15-52
+44            <!--
+45                 Displays an Android View that continues showing the launch screen
+46                 Drawable until Flutter paints its first frame, then this splash
+47                 screen fades out. A splash screen is useful to avoid any visual
+48                 gap between the end of Android's launch screen and the painting of
+49                 Flutter's first frame.
+50            -->
+51            <meta-data
+51-->/Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/android/app/src/main/AndroidManifest.xml:34:13-37:17
+52                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+52-->/Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/android/app/src/main/AndroidManifest.xml:35:15-79
+53                android:resource="@drawable/launch_background" />
+53-->/Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/android/app/src/main/AndroidManifest.xml:36:15-61
+54
+55            <intent-filter>
+55-->/Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/android/app/src/main/AndroidManifest.xml:38:13-41:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->/Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/android/app/src/main/AndroidManifest.xml:39:17-68
+56-->/Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/android/app/src/main/AndroidManifest.xml:39:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->/Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/android/app/src/main/AndroidManifest.xml:40:17-76
+58-->/Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/android/app/src/main/AndroidManifest.xml:40:27-74
+59            </intent-filter>
+60            <!-- Deep linking -->
+61            <meta-data
+61-->/Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/android/app/src/main/AndroidManifest.xml:43:13-90
+62                android:name="flutter_deeplinking_enabled"
+62-->/Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/android/app/src/main/AndroidManifest.xml:43:24-66
+63                android:value="true" />
+63-->/Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/android/app/src/main/AndroidManifest.xml:43:67-87
+64
+65            <intent-filter android:autoVerify="true" >
+65-->/Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/android/app/src/main/AndroidManifest.xml:44:13-49:29
+65-->/Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/android/app/src/main/AndroidManifest.xml:44:28-53
+66                <action android:name="android.intent.action.VIEW" />
+66-->/Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/android/app/src/main/AndroidManifest.xml:45:17-69
+66-->/Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/android/app/src/main/AndroidManifest.xml:45:25-66
+67
+68                <category android:name="android.intent.category.DEFAULT" />
+68-->/Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/android/app/src/main/AndroidManifest.xml:46:17-76
+68-->/Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/android/app/src/main/AndroidManifest.xml:46:27-73
+69                <category android:name="android.intent.category.BROWSABLE" />
+69-->/Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/android/app/src/main/AndroidManifest.xml:47:17-78
+69-->/Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/android/app/src/main/AndroidManifest.xml:47:27-75
+70
+71                <data
+71-->/Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/android/app/src/main/AndroidManifest.xml:48:17-91
+72                    android:host="naoenchemeuzap.com"
+72-->/Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/android/app/src/main/AndroidManifest.xml:48:55-88
+73                    android:scheme="naoenchemeuzap" />
+73-->/Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/android/app/src/main/AndroidManifest.xml:48:23-54
+74            </intent-filter>
+75        </activity>
+76
+77        <!--
+78             Don't delete the meta-data below.
+79             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+80        -->
+81        <meta-data
+81-->/Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/android/app/src/main/AndroidManifest.xml:55:9-57:33
+82            android:name="flutterEmbedding"
+82-->/Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/android/app/src/main/AndroidManifest.xml:56:13-44
+83            android:value="2" />
+83-->/Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/android/app/src/main/AndroidManifest.xml:57:13-30
+84
+85        <service
+85-->[:firebase_performance] /Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/build/firebase_performance/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-16:19
+86            android:name="com.google.firebase.components.ComponentDiscoveryService"
+86-->[:firebase_performance] /Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/build/firebase_performance/intermediates/merged_manifest/release/AndroidManifest.xml:12:18-89
+87            android:directBootAware="true"
+87-->[com.google.firebase:firebase-common:20.4.2] /Users/karla.franca/.gradle/caches/transforms-3/2ac1886cc7fa19cd13ffe1a07da61f70/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:32:13-43
+88            android:exported="false" >
+88-->[com.google.firebase:firebase-perf:20.5.1] /Users/karla.franca/.gradle/caches/transforms-3/dc3ec3ccd58d94beb78d1e09de029ffb/transformed/jetified-firebase-perf-20.5.1/AndroidManifest.xml:13:13-37
+89            <meta-data
+89-->[:firebase_performance] /Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/build/firebase_performance/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-15:85
+90                android:name="com.google.firebase.components:io.flutter.plugins.firebase.performance.FlutterFirebaseAppRegistrar"
+90-->[:firebase_performance] /Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/build/firebase_performance/intermediates/merged_manifest/release/AndroidManifest.xml:14:17-130
+91                android:value="com.google.firebase.components.ComponentRegistrar" />
+91-->[:firebase_performance] /Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/build/firebase_performance/intermediates/merged_manifest/release/AndroidManifest.xml:15:17-82
+92            <meta-data
+92-->[:firebase_core] /Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+93                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+93-->[:firebase_core] /Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+94                android:value="com.google.firebase.components.ComponentRegistrar" />
+94-->[:firebase_core] /Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+95            <meta-data
+95-->[com.google.firebase:firebase-perf:20.5.1] /Users/karla.franca/.gradle/caches/transforms-3/dc3ec3ccd58d94beb78d1e09de029ffb/transformed/jetified-firebase-perf-20.5.1/AndroidManifest.xml:14:13-16:85
+96                android:name="com.google.firebase.components:com.google.firebase.perf.FirebasePerfKtxRegistrar"
+96-->[com.google.firebase:firebase-perf:20.5.1] /Users/karla.franca/.gradle/caches/transforms-3/dc3ec3ccd58d94beb78d1e09de029ffb/transformed/jetified-firebase-perf-20.5.1/AndroidManifest.xml:15:17-112
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[com.google.firebase:firebase-perf:20.5.1] /Users/karla.franca/.gradle/caches/transforms-3/dc3ec3ccd58d94beb78d1e09de029ffb/transformed/jetified-firebase-perf-20.5.1/AndroidManifest.xml:16:17-82
+98            <meta-data
+98-->[com.google.firebase:firebase-perf:20.5.1] /Users/karla.franca/.gradle/caches/transforms-3/dc3ec3ccd58d94beb78d1e09de029ffb/transformed/jetified-firebase-perf-20.5.1/AndroidManifest.xml:17:13-19:85
+99                android:name="com.google.firebase.components:com.google.firebase.perf.FirebasePerfRegistrar"
+99-->[com.google.firebase:firebase-perf:20.5.1] /Users/karla.franca/.gradle/caches/transforms-3/dc3ec3ccd58d94beb78d1e09de029ffb/transformed/jetified-firebase-perf-20.5.1/AndroidManifest.xml:18:17-109
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[com.google.firebase:firebase-perf:20.5.1] /Users/karla.franca/.gradle/caches/transforms-3/dc3ec3ccd58d94beb78d1e09de029ffb/transformed/jetified-firebase-perf-20.5.1/AndroidManifest.xml:19:17-82
+101            <meta-data
+101-->[com.google.firebase:firebase-sessions:1.2.0] /Users/karla.franca/.gradle/caches/transforms-3/640707bbc6e6c4470d6ae8eef5db200e/transformed/jetified-firebase-sessions-1.2.0/AndroidManifest.xml:29:13-31:85
+102                android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar"
+102-->[com.google.firebase:firebase-sessions:1.2.0] /Users/karla.franca/.gradle/caches/transforms-3/640707bbc6e6c4470d6ae8eef5db200e/transformed/jetified-firebase-sessions-1.2.0/AndroidManifest.xml:30:17-117
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[com.google.firebase:firebase-sessions:1.2.0] /Users/karla.franca/.gradle/caches/transforms-3/640707bbc6e6c4470d6ae8eef5db200e/transformed/jetified-firebase-sessions-1.2.0/AndroidManifest.xml:31:17-82
+104            <meta-data
+104-->[com.google.firebase:firebase-config:21.6.0] /Users/karla.franca/.gradle/caches/transforms-3/35949dfbac352b4d3da35410a12b8c1f/transformed/jetified-firebase-config-21.6.0/AndroidManifest.xml:29:13-31:85
+105                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.FirebaseRemoteConfigKtxRegistrar"
+105-->[com.google.firebase:firebase-config:21.6.0] /Users/karla.franca/.gradle/caches/transforms-3/35949dfbac352b4d3da35410a12b8c1f/transformed/jetified-firebase-config-21.6.0/AndroidManifest.xml:30:17-128
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[com.google.firebase:firebase-config:21.6.0] /Users/karla.franca/.gradle/caches/transforms-3/35949dfbac352b4d3da35410a12b8c1f/transformed/jetified-firebase-config-21.6.0/AndroidManifest.xml:31:17-82
+107            <meta-data
+107-->[com.google.firebase:firebase-config:21.6.0] /Users/karla.franca/.gradle/caches/transforms-3/35949dfbac352b4d3da35410a12b8c1f/transformed/jetified-firebase-config-21.6.0/AndroidManifest.xml:32:13-34:85
+108                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+108-->[com.google.firebase:firebase-config:21.6.0] /Users/karla.franca/.gradle/caches/transforms-3/35949dfbac352b4d3da35410a12b8c1f/transformed/jetified-firebase-config-21.6.0/AndroidManifest.xml:33:17-117
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[com.google.firebase:firebase-config:21.6.0] /Users/karla.franca/.gradle/caches/transforms-3/35949dfbac352b4d3da35410a12b8c1f/transformed/jetified-firebase-config-21.6.0/AndroidManifest.xml:34:17-82
+110            <meta-data
+110-->[com.google.firebase:firebase-installations:17.2.0] /Users/karla.franca/.gradle/caches/transforms-3/80bed0ee9a7d927e2f11692783419133/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:15:13-17:85
+111                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+111-->[com.google.firebase:firebase-installations:17.2.0] /Users/karla.franca/.gradle/caches/transforms-3/80bed0ee9a7d927e2f11692783419133/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:16:17-130
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[com.google.firebase:firebase-installations:17.2.0] /Users/karla.franca/.gradle/caches/transforms-3/80bed0ee9a7d927e2f11692783419133/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:17:17-82
+113            <meta-data
+113-->[com.google.firebase:firebase-installations:17.2.0] /Users/karla.franca/.gradle/caches/transforms-3/80bed0ee9a7d927e2f11692783419133/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:18:13-20:85
+114                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+114-->[com.google.firebase:firebase-installations:17.2.0] /Users/karla.franca/.gradle/caches/transforms-3/80bed0ee9a7d927e2f11692783419133/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:19:17-127
+115                android:value="com.google.firebase.components.ComponentRegistrar" />
+115-->[com.google.firebase:firebase-installations:17.2.0] /Users/karla.franca/.gradle/caches/transforms-3/80bed0ee9a7d927e2f11692783419133/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:20:17-82
+116            <meta-data
+116-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/karla.franca/.gradle/caches/transforms-3/02b2fb7e25260eccaebc6d5e2bdd556f/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:12:13-14:85
+117                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+117-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/karla.franca/.gradle/caches/transforms-3/02b2fb7e25260eccaebc6d5e2bdd556f/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:13:17-116
+118                android:value="com.google.firebase.components.ComponentRegistrar" />
+118-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/karla.franca/.gradle/caches/transforms-3/02b2fb7e25260eccaebc6d5e2bdd556f/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:14:17-82
+119            <meta-data
+119-->[com.google.firebase:firebase-common:20.4.2] /Users/karla.franca/.gradle/caches/transforms-3/2ac1886cc7fa19cd13ffe1a07da61f70/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:35:13-37:85
+120                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+120-->[com.google.firebase:firebase-common:20.4.2] /Users/karla.franca/.gradle/caches/transforms-3/2ac1886cc7fa19cd13ffe1a07da61f70/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:36:17-109
+121                android:value="com.google.firebase.components.ComponentRegistrar" />
+121-->[com.google.firebase:firebase-common:20.4.2] /Users/karla.franca/.gradle/caches/transforms-3/2ac1886cc7fa19cd13ffe1a07da61f70/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:37:17-82
+122            <meta-data
+122-->[com.google.firebase:firebase-datatransport:18.1.8] /Users/karla.franca/.gradle/caches/transforms-3/4159ec0f05299b239506006f81e04d54/transformed/jetified-firebase-datatransport-18.1.8/AndroidManifest.xml:27:13-29:85
+123                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+123-->[com.google.firebase:firebase-datatransport:18.1.8] /Users/karla.franca/.gradle/caches/transforms-3/4159ec0f05299b239506006f81e04d54/transformed/jetified-firebase-datatransport-18.1.8/AndroidManifest.xml:28:17-115
+124                android:value="com.google.firebase.components.ComponentRegistrar" />
+124-->[com.google.firebase:firebase-datatransport:18.1.8] /Users/karla.franca/.gradle/caches/transforms-3/4159ec0f05299b239506006f81e04d54/transformed/jetified-firebase-datatransport-18.1.8/AndroidManifest.xml:29:17-82
+125            <meta-data
+125-->[com.google.firebase:firebase-abt:21.1.1] /Users/karla.franca/.gradle/caches/transforms-3/5c5bc6a87b588259787cadaba7521d09/transformed/jetified-firebase-abt-21.1.1/AndroidManifest.xml:12:13-14:85
+126                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+126-->[com.google.firebase:firebase-abt:21.1.1] /Users/karla.franca/.gradle/caches/transforms-3/5c5bc6a87b588259787cadaba7521d09/transformed/jetified-firebase-abt-21.1.1/AndroidManifest.xml:13:17-109
+127                android:value="com.google.firebase.components.ComponentRegistrar" />
+127-->[com.google.firebase:firebase-abt:21.1.1] /Users/karla.franca/.gradle/caches/transforms-3/5c5bc6a87b588259787cadaba7521d09/transformed/jetified-firebase-abt-21.1.1/AndroidManifest.xml:14:17-82
+128        </service>
+129
+130        <activity
+130-->[:url_launcher_android] /Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
+131            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+131-->[:url_launcher_android] /Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
+132            android:exported="false"
+132-->[:url_launcher_android] /Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
+133            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+133-->[:url_launcher_android] /Users/karla.franca/Documents/arquivos_pessoais/aplicativo_estudo/nao_enche_meu_zap/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
+134
+135        <service
+135-->[com.google.firebase:firebase-sessions:1.2.0] /Users/karla.franca/.gradle/caches/transforms-3/640707bbc6e6c4470d6ae8eef5db200e/transformed/jetified-firebase-sessions-1.2.0/AndroidManifest.xml:22:9-25:40
+136            android:name="com.google.firebase.sessions.SessionLifecycleService"
+136-->[com.google.firebase:firebase-sessions:1.2.0] /Users/karla.franca/.gradle/caches/transforms-3/640707bbc6e6c4470d6ae8eef5db200e/transformed/jetified-firebase-sessions-1.2.0/AndroidManifest.xml:23:13-80
+137            android:enabled="true"
+137-->[com.google.firebase:firebase-sessions:1.2.0] /Users/karla.franca/.gradle/caches/transforms-3/640707bbc6e6c4470d6ae8eef5db200e/transformed/jetified-firebase-sessions-1.2.0/AndroidManifest.xml:24:13-35
+138            android:exported="false" />
+138-->[com.google.firebase:firebase-sessions:1.2.0] /Users/karla.franca/.gradle/caches/transforms-3/640707bbc6e6c4470d6ae8eef5db200e/transformed/jetified-firebase-sessions-1.2.0/AndroidManifest.xml:25:13-37
+139
+140        <provider
+140-->[com.google.firebase:firebase-common:20.4.2] /Users/karla.franca/.gradle/caches/transforms-3/2ac1886cc7fa19cd13ffe1a07da61f70/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:23:9-28:39
+141            android:name="com.google.firebase.provider.FirebaseInitProvider"
+141-->[com.google.firebase:firebase-common:20.4.2] /Users/karla.franca/.gradle/caches/transforms-3/2ac1886cc7fa19cd13ffe1a07da61f70/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:24:13-77
+142            android:authorities="com.fkweb.naoenchemeuzap.firebaseinitprovider"
+142-->[com.google.firebase:firebase-common:20.4.2] /Users/karla.franca/.gradle/caches/transforms-3/2ac1886cc7fa19cd13ffe1a07da61f70/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:25:13-72
+143            android:directBootAware="true"
+143-->[com.google.firebase:firebase-common:20.4.2] /Users/karla.franca/.gradle/caches/transforms-3/2ac1886cc7fa19cd13ffe1a07da61f70/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:26:13-43
+144            android:exported="false"
+144-->[com.google.firebase:firebase-common:20.4.2] /Users/karla.franca/.gradle/caches/transforms-3/2ac1886cc7fa19cd13ffe1a07da61f70/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:27:13-37
+145            android:initOrder="100" />
+145-->[com.google.firebase:firebase-common:20.4.2] /Users/karla.franca/.gradle/caches/transforms-3/2ac1886cc7fa19cd13ffe1a07da61f70/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:28:13-36
+146
+147        <uses-library
+147-->[androidx.window:window:1.0.0-beta04] /Users/karla.franca/.gradle/caches/transforms-3/768f74a9029751ad6680571d32613ab7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+148            android:name="androidx.window.extensions"
+148-->[androidx.window:window:1.0.0-beta04] /Users/karla.franca/.gradle/caches/transforms-3/768f74a9029751ad6680571d32613ab7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+149            android:required="false" />
+149-->[androidx.window:window:1.0.0-beta04] /Users/karla.franca/.gradle/caches/transforms-3/768f74a9029751ad6680571d32613ab7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+150        <uses-library
+150-->[androidx.window:window:1.0.0-beta04] /Users/karla.franca/.gradle/caches/transforms-3/768f74a9029751ad6680571d32613ab7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+151            android:name="androidx.window.sidecar"
+151-->[androidx.window:window:1.0.0-beta04] /Users/karla.franca/.gradle/caches/transforms-3/768f74a9029751ad6680571d32613ab7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+152            android:required="false" />
+152-->[androidx.window:window:1.0.0-beta04] /Users/karla.franca/.gradle/caches/transforms-3/768f74a9029751ad6680571d32613ab7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+153
+154        <service
+154-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/karla.franca/.gradle/caches/transforms-3/48c64190dde6253efb713e20b71bc2fe/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:28:9-34:19
+155            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+155-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/karla.franca/.gradle/caches/transforms-3/48c64190dde6253efb713e20b71bc2fe/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:29:13-103
+156            android:exported="false" >
+156-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/karla.franca/.gradle/caches/transforms-3/48c64190dde6253efb713e20b71bc2fe/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:30:13-37
+157            <meta-data
+157-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/karla.franca/.gradle/caches/transforms-3/48c64190dde6253efb713e20b71bc2fe/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:31:13-33:39
+158                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+158-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/karla.franca/.gradle/caches/transforms-3/48c64190dde6253efb713e20b71bc2fe/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:32:17-94
+159                android:value="cct" />
+159-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/karla.franca/.gradle/caches/transforms-3/48c64190dde6253efb713e20b71bc2fe/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:33:17-36
+160        </service>
+161
+162        <meta-data
+162-->[com.google.android.gms:play-services-basement:18.1.0] /Users/karla.franca/.gradle/caches/transforms-3/5acce594a4d69a9214987f316758b9f4/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+163            android:name="com.google.android.gms.version"
+163-->[com.google.android.gms:play-services-basement:18.1.0] /Users/karla.franca/.gradle/caches/transforms-3/5acce594a4d69a9214987f316758b9f4/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+164            android:value="@integer/google_play_services_version" />
+164-->[com.google.android.gms:play-services-basement:18.1.0] /Users/karla.franca/.gradle/caches/transforms-3/5acce594a4d69a9214987f316758b9f4/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+165
+166        <provider
+166-->[androidx.lifecycle:lifecycle-process:2.3.1] /Users/karla.franca/.gradle/caches/transforms-3/9bcc3efe351c522a4bf2eceaeebcc648/transformed/jetified-lifecycle-process-2.3.1/AndroidManifest.xml:25:9-29:43
+167            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+167-->[androidx.lifecycle:lifecycle-process:2.3.1] /Users/karla.franca/.gradle/caches/transforms-3/9bcc3efe351c522a4bf2eceaeebcc648/transformed/jetified-lifecycle-process-2.3.1/AndroidManifest.xml:26:13-79
+168            android:authorities="com.fkweb.naoenchemeuzap.lifecycle-process"
+168-->[androidx.lifecycle:lifecycle-process:2.3.1] /Users/karla.franca/.gradle/caches/transforms-3/9bcc3efe351c522a4bf2eceaeebcc648/transformed/jetified-lifecycle-process-2.3.1/AndroidManifest.xml:27:13-69
+169            android:exported="false"
+169-->[androidx.lifecycle:lifecycle-process:2.3.1] /Users/karla.franca/.gradle/caches/transforms-3/9bcc3efe351c522a4bf2eceaeebcc648/transformed/jetified-lifecycle-process-2.3.1/AndroidManifest.xml:28:13-37
+170            android:multiprocess="true" />
+170-->[androidx.lifecycle:lifecycle-process:2.3.1] /Users/karla.franca/.gradle/caches/transforms-3/9bcc3efe351c522a4bf2eceaeebcc648/transformed/jetified-lifecycle-process-2.3.1/AndroidManifest.xml:29:13-40
+171
+172        <service
+172-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/karla.franca/.gradle/caches/transforms-3/5b160ad38589dd209e279a22217282f9/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:26:9-30:19
+173            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+173-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/karla.franca/.gradle/caches/transforms-3/5b160ad38589dd209e279a22217282f9/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:27:13-117
+174            android:exported="false"
+174-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/karla.franca/.gradle/caches/transforms-3/5b160ad38589dd209e279a22217282f9/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:28:13-37
+175            android:permission="android.permission.BIND_JOB_SERVICE" >
+175-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/karla.franca/.gradle/caches/transforms-3/5b160ad38589dd209e279a22217282f9/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:29:13-69
+176        </service>
+177
+178        <receiver
+178-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/karla.franca/.gradle/caches/transforms-3/5b160ad38589dd209e279a22217282f9/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:32:9-34:40
+179            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+179-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/karla.franca/.gradle/caches/transforms-3/5b160ad38589dd209e279a22217282f9/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:33:13-132
+180            android:exported="false" />
+180-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/karla.franca/.gradle/caches/transforms-3/5b160ad38589dd209e279a22217282f9/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:34:13-37
+181    </application>
+182
+183</manifest>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "978112604612",
+    "project_id": "quick-zap-wvxy72",
+    "storage_bucket": "quick-zap-wvxy72.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978112604612:android:66bdd5b9b07cd4e409dc91",
+        "android_client_info": {
+          "package_name": "com.fkweb.naoenchemeuzap"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDar2fHM7CokRhW-gC88xD1zNbugMw7r8k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
